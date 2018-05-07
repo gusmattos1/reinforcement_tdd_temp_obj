@@ -15,7 +15,7 @@ def to_celsius
   if @temp[:c]
     return @temp[:c]
   else
-  return ((@temp[:f] - 32) * (0.555555555555556)).to_i
+  return (@temp[:f] - 32) * 5/9
   end
 end
 
